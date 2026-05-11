@@ -8,7 +8,7 @@ import eventRoutes from './routes/events.js';
 import bookingRoutes from './routes/bookings.js';
 import errorHandler from './middleware/errorHandler.js';
 import swaggerUi from 'swagger-ui-express';
-import swaggerSpec from './swagger.js';
+import swaggerSpec from './docs/swagger.js';
 
 dotenv.config();
 
